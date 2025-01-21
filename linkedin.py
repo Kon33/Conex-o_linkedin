@@ -4,7 +4,7 @@ import time
 pg.PAUSE = 0.5
 vezes=int(input("O limite de conexão por semana 1000 e por dia 140.\nQuantas conexões você deseja fazer ? "))
 
-pg.hotkey("Win","2")
+pg.hotkey("Win","")
 pg.sleep
 pg.hotkey("ctrl","t")
 pg.write(r"https://www.linkedin.com/notifications")
